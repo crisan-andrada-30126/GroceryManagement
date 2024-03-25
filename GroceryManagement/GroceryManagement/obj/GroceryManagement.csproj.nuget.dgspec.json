@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andrada.crisan\\source\\repos\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj": {}
+    "C:\\project\\GroceryManagement\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andrada.crisan\\source\\repos\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj": {
+    "C:\\project\\GroceryManagement\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andrada.crisan\\source\\repos\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj",
+        "projectUniqueName": "C:\\project\\GroceryManagement\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj",
         "projectName": "GroceryManagement",
-        "projectPath": "C:\\Users\\andrada.crisan\\source\\repos\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj",
+        "projectPath": "C:\\project\\GroceryManagement\\GroceryManagement\\GroceryManagement\\GroceryManagement.csproj",
         "packagesPath": "C:\\Users\\andrada.crisan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andrada.crisan\\source\\repos\\GroceryManagement\\GroceryManagement\\obj\\",
+        "outputPath": "C:\\project\\GroceryManagement\\GroceryManagement\\GroceryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andrada.crisan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,6 +42,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -69,8 +73,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }
